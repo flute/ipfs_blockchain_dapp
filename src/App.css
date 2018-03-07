@@ -1,0 +1,76 @@
+/* PAGE */
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body, #root, .App{
+    width: 100%;
+    height: 100%;
+}
+.App{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    height: 60px;
+    line-height: 60px;
+    padding: 0 20px;
+    background: #cfd8dc;
+    border-bottom: 1px solid #eee;
+    font-size: 24px;
+    color: #fff;
+}
+.upload-container {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #cfd8dc;
+    color: #666;
+}
+.img-container {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+    height: 80px;
+    background: #eceff1;
+}
+.img-container div{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 3px;
+}
+.img-container div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-container div img{
+    max-width: 200px;
+    max-height: 200px;
+}
+.upload-container input{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.upload-container button{
+    height: 30px;
+    width: 80px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #fff;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    border-radius: 3px;
+    background: cadetblue
+}
+.upload-container button:hover{
+    opacity: 0.7;
+}
